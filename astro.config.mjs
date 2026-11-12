@@ -10,6 +10,8 @@ import rehypeKatex from "rehype-katex";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://whateverzpy.github.io",
+
   markdown: {
     processor: unified({
       remarkPlugins: [remarkMath],
